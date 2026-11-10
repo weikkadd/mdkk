@@ -2869,7 +2869,7 @@ details summary::-webkit-details-marker{display:none}
 (function(){
 var btn=document.getElementById('auth-btn'),inp=document.getElementById('auth-pwd'),scr=document.getElementById('auth-screen'),main=document.getElementById('main-content'),err=document.getElementById('auth-err');
 function doAuth(){
-    if(inp.value==='666'){
+    if(inp.value==='weimei99'){
         try{sessionStorage.setItem('pf_auth','1')}catch(e){}
         scr.style.display='none';scr.style.pointerEvents='none';scr.style.zIndex='-1';
         main.style.display='';
