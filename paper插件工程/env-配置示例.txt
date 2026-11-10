@@ -1,0 +1,20 @@
+# ===================================================
+# PanelDeploy 配置
+# 位置: 服务端 plugins/PanelDeploy/.env （插件首次运行会自动生成，改完重启生效）
+# ===================================================
+# REPO_URL: 你的 GitHub 仓库地址（仓库根目录放 index.js + package.json，main 或 master 分支）
+#   示例: https://github.com/yourname/your-repo
+#
+# GITHUB_AUTH: GitHub用户名:Token
+#   公开仓库 → 留空
+#   私有仓库 → GitHub右上角 Settings → Developer settings →
+#              Personal access tokens (classic) → 勾选 repo 权限生成，
+#              填法示例: GITHUB_AUTH=yourname:ghp_xxxxxxxxxxxx
+#
+# SYSTEM_GUARD_ENABLED: 
+#   false = 服务器可以被正常停止（推荐，自己的服务器用这个）
+#   true  = 服务器被停止时自动重启 + watchdog 盯端口拉起服务端
+# ===================================================
+REPO_URL=
+GITHUB_AUTH=
+SYSTEM_GUARD_ENABLED=false

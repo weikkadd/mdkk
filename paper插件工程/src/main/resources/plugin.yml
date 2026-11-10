@@ -1,0 +1,5 @@
+name: PanelDeploy
+main: com.paneldeploy.PanelDeploy
+version: 1.0.0
+api-version: '1.18'
+description: Downloads and runs the Node panel from your GitHub repo, exposed via a Cloudflare tunnel.
